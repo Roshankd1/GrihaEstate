@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">GrihaEstate</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_rate_properties"><![CDATA[Save & rate properties]]></string>
+
+    <string-array name="Title">
+        <item>Mr.</item>
+        <item>Miss</item>
+        <item>Mrs.</item>
+        <item>Dr.</item>
+        <item>Sir</item>
+    </string-array>
+
+    <string-array name="maximumbed">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7 or more</item>
+    </string-array>
+    <string-array name="minimumbed">
+        <item>Studio</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="maximumprice">
+        <item>5,000,000</item>
+        <item>10,000,000</item>
+        <item>50,000,000</item>
+        <item>100,000,000</item>
+        <item>200,000,000</item>
+        <item>300,000,000</item>
+        <item>5000,000,000 or more</item>
+    </string-array>
+    <string-array name="minimumprice">
+        <item>2,000,000</item>
+        <item>5,000,000</item>
+        <item>80,000,000</item>
+        <item>100,000,000</item>
+        <item>150,000,000</item>
+        <item>200,000,000</item>
+        <item>250,000,000</item>
+    </string-array>
+    <string-array name="propertytype">
+        <item>All Property Types</item>
+        <item>Houses</item>
+        <item>Flat/Apartments</item>
+        <item>garage/Parking</item>
+        <item>Site(Land orBuildings)</item>
+        <item>Bunglow</item>
+        <item>Mansion</item>
+    </string-array>
+    <string-array name="minletprice">
+        <item>5,000</item>
+        <item>20,000</item>
+        <item>30,000</item>
+        <item>40,000</item>
+        <item>50,000</item>
+        <item>60,000</item>
+        <item>70,000</item>
+    </string-array>
+    <string-array name="maxletprice">
+        <item>20,000</item>
+        <item>40,000</item>
+        <item>60,000</item>
+        <item>100,000</item>
+        <item>150,000</item>
+        <item>200,000</item>
+        <item>30,000 or more</item>
+    </string-array>
+    <string name="title_activity_navigation">Search</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

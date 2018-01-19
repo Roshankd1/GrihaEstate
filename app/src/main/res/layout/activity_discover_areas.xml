@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Discover Kathmandu"
+style="@style/layoutTitle"
+      />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAppTheme"
+        android:layout_marginBottom="50dp"/>
+
+    <Button android:id="@+id/openmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to Open Map"
+        android:textAllCaps="false"
+        style="@style/ButtonTheme"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            style="@style/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MINIMUM BEDROOMS" />
+
+        <TextView
+            style="@style/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAXIMUM BEDROOMS" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAppTheme"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/minimumbed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/EditTextColor"
+            android:entries="@array/minimumbed"
+            android:padding="10dp"
+            android:layout_marginRight="50dp">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/maximumbed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/EditTextColor"
+            android:entries="@array/maximumbed"
+            android:padding="10dp"
+            android:layout_marginLeft="50dp">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/apply"
+            style="@style/ButtonTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APPLY" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/ButtonTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+</LinearLayout>

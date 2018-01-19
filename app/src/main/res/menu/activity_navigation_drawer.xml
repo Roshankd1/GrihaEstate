@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="SEARCH" />
+        <item
+            android:id="@+id/mygriha_estate"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="MY GRIHAESTATE" />
+        <item
+            android:id="@+id/discover_areas"
+            android:icon="@drawable/ic_near_me_black_24dp"
+            android:title="DISCOVER AREAS" />
+        <item
+            android:id="@+id/property_valuation"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="PROPERTY VALUATION" />
+        <item
+            android:id="@+id/offices"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="OFFICES" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="SETTINGS" />
+        <item
+            android:id="@+id/login_signup"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="LOGIN/SIGN UP" />
+
+    </group>
+
+
+</menu>

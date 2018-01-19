@@ -1,0 +1,15 @@
+package com.roshank.grihaestate;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.roshank.grihaestate.R;
+
+public class SetttingActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_settting);
+    }
+}

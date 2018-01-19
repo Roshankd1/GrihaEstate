@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+      style="@style/layoutTitle"
+
+      />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d26642" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:paddingTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="COLLECT DATA"
+        android:textColor="@color/colorAppTheme"
+        android:textSize="22sp"
+        android:layout_weight="2"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+android:layout_weight="1"
+            android:padding="10dp"
+            />
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Allow this application to collect usage information that will improve user experience"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="PRIVACY POLICY"
+            android:padding="8dp"
+            android:textSize="20sp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="TERMS AND CONDITIONS"
+            android:padding="8dp"
+            android:textSize="20sp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="REPORT AN ISSUE"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="VISIT GRIHAESTATE.COM"
+            android:padding="8dp"
+            android:textSize="20sp" />
+
+
+
+            </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
