@@ -15,20 +15,10 @@ import com.roshank.grihaestate.R;
 
 public class MyGrihaEstateFragment extends Fragment {
 
-    ImageView gobutton;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_my_griha_estate_fragment,null);
-gobutton = view.findViewById(R.id.gobutton);
-
-        view.findViewById(R.id.gobutton).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getActivity(), MapsActivity.class));
-            }
-        });
         return view;
     }
 

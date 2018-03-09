@@ -41,7 +41,7 @@ public class ViewpagerFragment extends Fragment {
         shortlet.setOnClickListener(tabclicklistner);
         pager.setAdapter(new ViewPagerAdapter(getChildFragmentManager()));
 //        forsale.setBackgroundResource(R.drawable.fragmentbutton);
-        pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
